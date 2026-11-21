@@ -1,0 +1,3 @@
+id,current_from,current_to,baseline_from,baseline_to,allowed_districts,reason
+M1,2026-10-04,2026-10-10,2026-09-24,2026-09-30,西东+柳南,相同营业窗口
+M2,2026-10-04,2026-10-10,2026-09-24,2026-09-30,近岸,可能受客流外溢，不用作因果对照

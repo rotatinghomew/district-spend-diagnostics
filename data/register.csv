@@ -1,0 +1,11 @@
+merchant,district,offer_type,day_start,membership,valid_from,valid_until
+Aster,西东,快闪,5,event,2026-09-01,
+Basil,柳南,门店,4,event,2026-09-01,
+Cedar,近岸,门店,4,comparison,2026-09-01,
+Dill,西东,门店,5,event,2026-09-01,
+Elm,柳南,快闪,4,event,2026-09-01,
+Fern,近岸,门店,4,comparison,2026-09-01,
+Ginger,西东,门店,5,event,2026-09-01,
+Holly,柳南,门店,4,event,2026-09-01,
+Ivy,近岸,快闪,4,comparison,2026-09-01,
+Juniper,西东,门店,5,event,2026-10-03,

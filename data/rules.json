@@ -1,0 +1,11 @@
+{
+  "timezone": "Asia/Shanghai",
+  "money_unit": "分",
+  "coverage": "支付凭据和核券不构成履约；净金额含已经确定的订单行级退回，不重复计同一退款号。修订在 received 所标时间后才可见，按原履约地的本地统计日归期。",
+  "materiality": {
+    "min_change_cents": 8000,
+    "min_comparable_trade_days": 4,
+    "interval_level": 0.9
+  },
+  "responsibility": "接入组每个自然日可向四个终端时段请求回补；相同终端且证据能覆盖的窗口可共享。同一异常有多个窗口时，以各窗口各自收到的恢复回执为准。"
+}
