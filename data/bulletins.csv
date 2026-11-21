@@ -1,6 +1,7 @@
-request,edition,audience,scope,state,previous,conclusion
-N1,2026-10-11,经营会,柳南+西东,delivered,,柳南回落与西东上升同时出现，需要判断是移位还是资料缺口
-N2,2026-10-14,经营会,柳南+西东,proposed,N1,
-N3,2026-10-14,接入值班,西东,proposed,N1,
-N4,2026-10-19,经营会,柳南+西东,proposed,N1,
-N5,2026-10-19,接入值班,柳南,proposed,N1,
+request,edition,claim,audience,scope,state,previous,conclusion
+N1,2026-10-11,H1,经营会,柳南/门店/票务,delivered,,夜市门票销售放缓，需要到店核查
+N1,2026-10-11,H2,经营会,柳南+西东/展品,delivered,,两地变化同期出现，资料覆盖不齐
+N2,2026-10-14,H1,经营会,柳南/门店/票务,proposed,N1,
+N3,2026-10-14,H2,接入值班,西东/展品,proposed,N1,
+N4,2026-10-19,H2,经营会,柳南+西东/展品,proposed,N1,
+N5,2026-10-19,H1,接入值班,柳南/门店/票务,proposed,N1,

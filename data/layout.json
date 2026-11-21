@@ -58,10 +58,11 @@
     ]
   },
   "bulletins": {
-    "summary": "已发通报的原始判断和下一次复盘请求；原判断允许被外部资料纠正。",
+    "summary": "已发通报中的原判断与之后的复盘请求；claim 可用于指明单项更正，不等同整件。",
     "header": [
       "request",
       "edition",
+      "claim",
       "audience",
       "scope",
       "state",
@@ -70,7 +71,7 @@
     ]
   },
   "terminals": {
-    "summary": "一组可共享故障的终端及门店；同版本记录是运行事实而非分析结论。",
+    "summary": "终端与门店的有效范围，同一天内可换终端。起止值按本地时钟解释，左闭右开。",
     "header": [
       "terminal",
       "merchant",
@@ -88,6 +89,19 @@
       "state",
       "ref",
       "recorded"
+    ]
+  },
+  "business_checks": {
+    "summary": "现场组按经营假设记录核查，而非终端接入回执。",
+    "header": [
+      "check",
+      "claim",
+      "merchant",
+      "from",
+      "to",
+      "state",
+      "finding",
+      "received"
     ]
   },
   "comparison_calendar": {

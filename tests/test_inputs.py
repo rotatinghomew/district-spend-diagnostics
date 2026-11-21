@@ -27,3 +27,8 @@ class SourceRecords(unittest.TestCase):
         planned = recoveries[restored['ref']]
         self.assertEqual(restored['terminal'],planned['terminal'])
         self.assertLess(restored['to'],planned['to'])
+        self.assertEqual(restored['record'],recoveries['U6']['ref'])
+        moves = [row for row in tables['terminals'] if row['merchant']=='Basil']
+        self.assertEqual(moves[0]['active_to'],moves[1]['active_from'])
+        self.assertGreater(int(restored['to'][11:13]),int(moves[0]['active_from'][11:13])-5)
+        self.assertGreater(len({row['claim'] for row in tables['bulletins'] if row['request']=='N1'}),1)

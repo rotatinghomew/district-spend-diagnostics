@@ -1,6 +1,6 @@
 terminal,merchant,active_from,active_to
 D0,Aster,2026-09-01,
-D0,Basil,2026-09-01,
+D0,Basil,2026-09-01,2026-10-05T10:00
 D1,Cedar,2026-09-01,
 D1,Dill,2026-09-01,
 D2,Elm,2026-09-01,
@@ -9,3 +9,4 @@ D3,Ginger,2026-09-01,
 D3,Holly,2026-09-01,
 D4,Ivy,2026-09-01,
 D4,Juniper,2026-09-01,
+D4,Basil,2026-10-05T10:00,

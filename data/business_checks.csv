@@ -1,0 +1,4 @@
+check,claim,merchant,from,to,state,finding,received
+K1,H1,Basil,2026-10-05T06:00,2026-10-05T14:00,accepted,,2026-10-12T14:00
+K2,H2,Aster,2026-10-05T03:00,2026-10-05T11:00,observed,跨区交货仍在进行,2026-10-13T15:00
+K3,H1,Basil,2026-10-05T06:00,2026-10-05T09:00,observed,柜台开放但票务暂停,2026-10-18T09:00
